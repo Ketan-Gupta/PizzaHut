@@ -1,3 +1,4 @@
+// Additional comment added to check if fetch is working or not
 public class Customer{
 private int custNo;
 private String custName;
