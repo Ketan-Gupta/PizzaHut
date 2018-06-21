@@ -39,8 +39,8 @@ private String custAddr;
 	{
 		C.setCustomer(x,y,z);
 	}
-	public void display(Customer c)
+	public void getCustomer()
 	{
-		System.out.println("No:"+c.getcustNo() +"\n"+"Customer Name:"+ c.getcustName() + "\n"+"Customer Address:"+c.getcustAddr());
+		System.out.println(getcustNo() +"\t\t"+getcustName() + "\t\t"+getcustAddr());
 	}
 }
