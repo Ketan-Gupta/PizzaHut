@@ -1,0 +1,3 @@
+Driver class files are put into seperate package and Object class files are put into separate package.
+
+For a big project, the primary class is made as an interface, and other implementation class implement that interface by writing their own separate logic, also for every new object, a separate implementation class is created.
